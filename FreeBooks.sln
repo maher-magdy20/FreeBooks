@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBook", "WebBook\WebBook.csproj", "{724F9746-8E5B-48C7-9CAE-AC48A1C10F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domin", "Domin\Domin.csproj", "{046F610F-AC6B-4C0A-A269-4C508365E0B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infarstuructre", "infarstuructre\infarstuructre.csproj", "{9F38AE8B-38BB-493D-B20F-C51E99EB46D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724F9746-8E5B-48C7-9CAE-AC48A1C10F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724F9746-8E5B-48C7-9CAE-AC48A1C10F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724F9746-8E5B-48C7-9CAE-AC48A1C10F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724F9746-8E5B-48C7-9CAE-AC48A1C10F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046F610F-AC6B-4C0A-A269-4C508365E0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046F610F-AC6B-4C0A-A269-4C508365E0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046F610F-AC6B-4C0A-A269-4C508365E0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046F610F-AC6B-4C0A-A269-4C508365E0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F38AE8B-38BB-493D-B20F-C51E99EB46D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F38AE8B-38BB-493D-B20F-C51E99EB46D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F38AE8B-38BB-493D-B20F-C51E99EB46D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F38AE8B-38BB-493D-B20F-C51E99EB46D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B43E7C5F-398D-49BD-A183-D101F129A4D4}
+	EndGlobalSection
+EndGlobal
