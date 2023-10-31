@@ -11,7 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContextPool<FreeBookDbContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("BookConnection")));
 
 builder.Services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<FreeBookDbContext>();
-
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,7 +26,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthorization();
 
 

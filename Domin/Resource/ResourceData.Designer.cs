@@ -22,7 +22,7 @@ namespace Domin.Resource {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class ResourceData {
+    public class ResourceData {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Domin.Resource {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Domin.Resource.ResourceData", typeof(ResourceData).Assembly);
@@ -51,7 +51,7 @@ namespace Domin.Resource {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Domin.Resource {
         /// <summary>
         ///   Looks up a localized string similar to يجب ادخال اسم المؤلف.
         /// </summary>
-        internal static string AuthorName {
+        public static string AuthorName {
             get {
                 return ResourceManager.GetString("AuthorName", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Domin.Resource {
         /// <summary>
         ///   Looks up a localized string similar to يجب ادخال اسم الكتاب.
         /// </summary>
-        internal static string BookName {
+        public static string BookName {
             get {
                 return ResourceManager.GetString("BookName", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Domin.Resource {
         /// <summary>
         ///   Looks up a localized string similar to يجب ادخال اسم الفئة.
         /// </summary>
-        internal static string CateogryName {
+        public static string CateogryName {
             get {
                 return ResourceManager.GetString("CateogryName", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Domin.Resource {
         /// <summary>
         ///   Looks up a localized string similar to يجب الا يزيد عدد حروف الكلمة عن عشرون حرف.
         /// </summary>
-        internal static string MaxLength {
+        public static string MaxLength {
             get {
                 return ResourceManager.GetString("MaxLength", resourceCulture);
             }
@@ -99,16 +99,25 @@ namespace Domin.Resource {
         /// <summary>
         ///   Looks up a localized string similar to  يجب الا يقل عدد حروف الكمة عن 3 احرف.
         /// </summary>
-        internal static string MinLength {
+        public static string MinLength {
             get {
                 return ResourceManager.GetString("MinLength", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to يجب ادخال اسم المجموعة.
+        /// </summary>
+        public static string RoleName {
+            get {
+                return ResourceManager.GetString("RoleName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to يجب ادخال اسم الفئة الفرعية.
         /// </summary>
-        internal static string SubCateogryName {
+        public static string SubCateogryName {
             get {
                 return ResourceManager.GetString("SubCateogryName", resourceCulture);
             }
